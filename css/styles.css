@@ -1,0 +1,31 @@
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+#home {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #e169e6;
+}
+
+#about {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #3590e0;
+}
+
+#contact {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #ddc22a;
+}
